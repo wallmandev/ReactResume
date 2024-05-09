@@ -1,0 +1,20 @@
+.skills{
+
+    &-header{
+       margin-bottom: 4rem;
+    }
+
+
+    &-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &-links{
+        font-family: "Roboto", sans-serif;
+        color: #e4e4e4;
+        :hover{
+            color: rgb(47, 47, 47);
+        }
+    }
+}
